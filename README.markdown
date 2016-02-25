@@ -3,9 +3,9 @@ Mocha `beforeThis()`
 ====================
 This monkey-patches [Mocha][] with support for pseudo-hooks specific to a *single test*.
 
-This was extrated from [the library being built](fn) to power <http://FIXME.ninja>; as a component
-necessary for [`mocha-directories`](directories) (another hack, to give test-cases their own unique
-working directory.)
+This was extrated from [the library being built](fn) to power [FIXME.ninja](http://FIXME.ninja); as
+a component necessary for [`mocha-directories`](directories) (another hack, to give test-cases their
+own unique working directory.)
 
    [Mocha]: <http://mochajs.org> "Mocha, the javascript test framework for node.js & the browser"
    [fn]: <http://ell.io/tt$fixme-ninja> "The fixme-ninja library on NPM"
