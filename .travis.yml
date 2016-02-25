@@ -1,0 +1,22 @@
+sudo: required
+dist: trusty
+
+branches:
+   except: /\+$/
+
+language: node_js
+
+before_install:
+ - npm install -g npm
+
+notifications:
+   email: false
+   irc:
+      skip_join: true
+      on_success: never
+      on_failure: change
+      channels:
+       - "chat.freenode.net#ELLIOTTCABLE"
+      template:
+       - "%{repository_name}/%{branch} @%{commit} %{author}: #%{build_number} %{message}"
+       - "(Details: %{build_url})"
